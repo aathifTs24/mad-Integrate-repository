@@ -1,0 +1,4 @@
+#Wed Oct 06 08:13:38 IST 2021
+base.0=C\:\\Users\\singer\\Desktop\\MADproject-main\\MADproject-main\\madErrorcheck\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

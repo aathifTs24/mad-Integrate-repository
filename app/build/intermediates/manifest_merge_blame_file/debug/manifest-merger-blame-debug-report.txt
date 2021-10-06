@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.corona_safe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:6:5-78:19
+12        android:allowBackup="true"
+12-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\singer\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="Lock Downed Districts"
+16-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:9:9-46
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.CovidAdmin" >
+20-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:12:9-48
+21        <activity android:name="com.example.corona_safe.AddLockdownDashboard" />
+21-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:13:9-57
+21-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:13:19-55
+22        <activity
+22-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:15:9-18:15
+23            android:name="com.example.corona_safe.AddActivity"
+23-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:16:13-40
+24            android:parentActivityName="com.example.corona_safe.AddLockdownDashboard" />
+24-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:17:13-63
+25        <activity
+25-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:21:9-23:15
+26            android:name="com.example.corona_safe.UpdateActivity"
+26-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:21:19-49
+27            android:parentActivityName="com.example.corona_safe.AddLockdownDashboard" />
+27-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:22:13-63
+28        <activity
+28-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:27:9-29:39
+29            android:name="com.example.corona_safe.srilankafigures"
+29-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:28:13-44
+30            android:exported="true" />
+30-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:29:13-36
+31        <activity
+31-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:30:9-32:39
+32            android:name="com.example.corona_safe.covidDailyupdatesAdmin"
+32-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:31:13-51
+33            android:exported="true" />
+33-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:32:13-36
+34        <activity
+34-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:33:9-37:67
+35            android:name="com.example.corona_safe.HomeActivity"
+35-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:34:13-41
+36            android:exported="true"
+36-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:35:13-36
+37            android:label="Home"
+37-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:36:13-33
+38            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+38-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:37:13-64
+39        <activity
+39-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:38:9-42:67
+40            android:name="com.example.corona_safe.AdminHomeActivity"
+40-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:39:13-46
+41            android:exported="true"
+41-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:40:13-36
+42            android:label="Admin Home"
+42-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:41:13-39
+43            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+43-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:42:13-64
+44        <activity
+44-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:43:9-47:67
+45            android:name="com.example.corona_safe.AdminUpdateActivity"
+45-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:44:13-48
+46            android:exported="true"
+46-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:45:13-36
+47            android:label="Admin Update"
+47-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:46:13-41
+48            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+48-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:47:13-64
+49        <activity
+49-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:48:9-52:67
+50            android:name="com.example.corona_safe.SignUPActivity"
+50-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:49:13-43
+51            android:exported="true"
+51-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:50:13-36
+52            android:label="SignUPActivity"
+52-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:51:13-43
+53            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+53-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:52:13-64
+54        <activity
+54-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:53:9-57:67
+55            android:name="com.example.corona_safe.SignInActivity"
+55-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:54:13-43
+56            android:exported="true"
+56-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:55:13-36
+57            android:label="@string/title_activity_sign_in"
+57-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:56:13-59
+58            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+58-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:57:13-64
+59        <activity
+59-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:58:9-62:67
+60            android:name="com.example.corona_safe.SettingsActivity"
+60-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:59:13-45
+61            android:exported="true"
+61-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:60:13-36
+62            android:label="SettingsActivity"
+62-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:61:13-45
+63            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+63-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:62:13-64
+64        <activity
+64-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:63:9-73:20
+65            android:name="com.example.corona_safe.MainActivity"
+65-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:64:13-41
+66            android:exported="true"
+66-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:65:13-36
+67            android:label="@string/app_name"
+67-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:66:13-45
+68            android:theme="@style/Theme.CORONASafe.NoActionBar" >
+68-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:67:13-64
+69            <intent-filter>
+69-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:68:13-72:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:69:17-69
+70-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:69:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:71:17-77
+72-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:71:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <meta-data
+76-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:75:9-77:57
+77            android:name="preloaded_fonts"
+77-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:76:13-43
+78            android:resource="@array/preloaded_fonts" />
+78-->C:\Users\singer\Desktop\MADproject-main\MADproject-main\madErrorcheck\app\src\main\AndroidManifest.xml:77:13-54
+79    </application>
+80
+81</manifest>
